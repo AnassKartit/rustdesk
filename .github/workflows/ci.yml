@@ -84,8 +84,8 @@ jobs:
     - name: Install prerequisites
       shell: bash
       run: |
-         brew install nasm yasm
-        esac
+       brew install nasm yasm
+        
 
     - name: Restore from cache and install vcpkg
       uses: lukka/run-vcpkg@v7
